@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+</html>
+    <head> 
+        <meta charset="utf-8"> 
+        <title>Sablon</title> 
+        <body>
+            <script>
+class Student {
+  constructor(name, address, phone, course) {
+    this.name = name;
+    this.address = address;
+    this.phone = phone;
+    this.course = course;
+  }
+  
+  getInfo(){
+      return "Name: "+this.name+", Address: "+this.address+", Phone: "+this.phone+", Course: "+this.course;
+  }
+}
+
+
+let myStud1 = new Student("John Benson" , "High Park 36","(507) 833-3567" ,"Geography");
+
+
+let myStud2 = new Student("Ionescu " , "Str Viilor ", "0775363768" , "Istorie");
+
+let myStud3 = new Student("Vasilescu" , " Str Fratii Buzesti " , " 0778964990" ," Criminologie");
+
+console.log(myStud1.getInfo());
+console.log(myStud2.getInfo());
+console.log(myStud3.getInfo());
+
+</script>
+</body>
+    </head>
+    </html>
